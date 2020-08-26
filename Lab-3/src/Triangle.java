@@ -17,7 +17,7 @@ public class Triangle {
     }
     public void show(){
         if(check()){
-            System.out.println("Base: "+base+", Height: "+height + "Area: "+getArea());
+            System.out.println("Base: "+base+", Height: "+height + ", Area: "+getArea());
         }else{
             System.out.println("Error - base / height cannot be 0 or negative");
         }
@@ -57,7 +57,5 @@ public class Triangle {
         t4.base = 10;
         t4.height = -50;
         t4.compare(t5);
-
-
     }
 }
