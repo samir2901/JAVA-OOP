@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"Triangle","l":"compare(Triangle)"},{"p":"<Unnamed>","c":"Triangle","l":"getArea()"},{"p":"<Unnamed>","c":"Triangle","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"<Unnamed>","c":"Triangle","l":"show()"},{"p":"<Unnamed>","c":"Triangle","l":"Triangle(int, int)","url":"%3Cinit%3E(int,int)"}]
