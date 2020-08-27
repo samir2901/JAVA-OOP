@@ -2,6 +2,9 @@ public class Triangle {
 
     int base = 0;
     int height = 0;
+    /**
+     * Default constructor, initialises Triangle list
+     */
     public Triangle(int base, int height){
         this.base = base;
         this.height = height;
@@ -9,12 +12,19 @@ public class Triangle {
     boolean check(){
         return base > 0 && height > 0;
     }
+    /**
+     * Gives the area of a triangle
+     * @return a float value if base and height are positive else 0
+     */
     public float getArea(){
         if(check()) {
             return (float) ((base * height) / 2.0);
         }
         return 0;
     }
+    /**
+     * Prints the dimension of the triangle
+     */
     public void show(){
         if(check()){
             System.out.println("Base: "+base+", Height: "+height + ", Area: "+getArea());
@@ -22,6 +32,11 @@ public class Triangle {
             System.out.println("Error - base / height cannot be 0 or negative");
         }
     }
+    /**
+     * Removes the Equipment instance, specified by its id, from the list
+     * @param t2
+     * prints if the triangle has area greater, less or equal to t2
+     */
     public void compare(Triangle t2){
         if(getArea()>0) {
             if (getArea() == t2.getArea()) {
