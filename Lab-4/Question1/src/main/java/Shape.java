@@ -54,16 +54,14 @@ class Circle extends Shape{
     }    
 }
 
-class Square extends Rectangle{
-    public double side=0;
-        
+class Square extends Rectangle{    
     public Square(double side,String color){
         super(side,side,color);        
     }
     
     //overriding printDesc()
     public void printDesc(){
-        double area = this.side * this.side;
+        double area = this.length * this.breadth;
         System.out.println("The square has a side of " + this.length + ", area of " + area + ", color of " + this.color + ".");        
     }    
 }
