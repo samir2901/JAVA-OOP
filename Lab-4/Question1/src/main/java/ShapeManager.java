@@ -33,7 +33,7 @@ public class ShapeManager {
         String colorRect = sc.next();
         
         Rectangle rect = new Rectangle(length, breadth, colorRect);
-        rect.printDesc();
+        sm.manageShape(rect);
         
         System.out.println("Enter side: ");
         double side = Double.parseDouble(sc.next());        
@@ -41,7 +41,7 @@ public class ShapeManager {
         String colorSq = sc.next();
         
         Square sq = new Square(side,colorSq);
-        sq.printDesc();
+        sm.manageShape(sq);
         
         System.out.println("Enter radius: ");
         double radius = Double.parseDouble(sc.next());        
@@ -49,6 +49,6 @@ public class ShapeManager {
         String colorCircle = sc.next();
         
         Circle c = new Circle(radius, colorCircle);
-        c.printDesc();
+        sm.manageShape(c);
     }    
 }
