@@ -56,7 +56,7 @@ class Circle extends Shape{
 
 class Square extends Rectangle{    
     public Square(double side,String color){
-        super(side,side,color);        
+        super(side,side,color);           
     }
     
     //overriding printDesc()
