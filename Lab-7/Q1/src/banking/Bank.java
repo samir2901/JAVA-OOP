@@ -32,5 +32,9 @@ public class Bank {
         System.out.println("Depositing 900");
         currentAcc.deposit(900);
         currentAcc.display();
+        
+        System.out.println("Depositing 17900");
+        currentAcc.deposit(17900);
+        currentAcc.display();
     }    
 }
